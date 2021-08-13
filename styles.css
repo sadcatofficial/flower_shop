@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+@import url("https://fonts.googleapis.com/css2?family=Playfair Display");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  margin-left: 10%;
+  margin-right: 5%;
+}
+.main-nav {
+  border-top: 1px solid #ae7c78;
+  border-bottom: 1px solid #ae7c78;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ae7c78;
+}
+.main-nav > ul li {
+  display: inline;
+  margin: 0;
+  padding: 0 4em;
+  align-items: center;
+}
+
+.advantages > ul li {
+  width: 400px;
+  display: inline-flex;
+
+}
+
+.advantages {
+  font-family: Montserrat;
+
+
+  /* identical to box height */
+
+  color: #ae7c78;
+}
+
+.pink-b {
+  position: absolute;
+  width: 285px;
+  height: 80px;
+  color: white;
+  background: #d89999;
+  border-radius: 40px;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 80px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.main-container > h1 {
+  width: 384px;
+  height: 118px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 59px;
+
+  color: #ae7c78;
+}
+
+.main-container > p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  width: 384px;
+  height: 58px;
+  color: #ae7c78;
+}
+
+.image-container > img {
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.main-tb {
+  display: inline-table;
+}
+
+.popular {
+  text-align: center;
+  width: 800px;
+  height: 550px;
+}
+
+
